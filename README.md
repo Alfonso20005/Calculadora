@@ -38,6 +38,22 @@ Para usar la calculadora, simplemente abre el archivo `index.html` en tu navegad
 - **show**: Añade un carácter o número al contenido actual de la pantalla.
 - **calc**: Evalúa la expresión matemática que se muestra en la pantalla y muestra el resultado.
 
+```bash
+    let display = document.getElementById('screen');
+
+    const wipe = () => {
+        display.value = '';
+    }
+
+    const show = (n) => {
+        display.value += n;
+    }
+
+    const calc = () => {
+        display.value = eval(display.value);
+    }
+```
+
 ## Instalación
 
 No se requiere instalación. Simplemente descarga el archivo `index.html` y ábrelo en tu navegador web.
