@@ -9,5 +9,6 @@ const show = (n) => {
 }
 
 const calc = () => {
-    display.value = eval(display.value);
+    let resultado = eval(display.value);
+    display.value = resultado.toFixed(2);
 }
