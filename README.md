@@ -39,18 +39,19 @@ Para usar la calculadora, simplemente abre el archivo `index.html` en tu navegad
 - **calc**: Evalúa la expresión matemática que se muestra en la pantalla y muestra el resultado.
 
 ```bash
-    let display = document.getElementById('screen');
+   let display = document.getElementById('screen');
 
     const wipe = () => {
         display.value = '';
     }
-
+    
     const show = (n) => {
         display.value += n;
     }
-
+    
     const calc = () => {
-        display.value = eval(display.value);
+        let resultado = eval(display.value);
+        display.value = resultado.toFixed(2);
     }
 ```
 
