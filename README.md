@@ -60,8 +60,9 @@ No se requiere instalación. Simplemente descarga el archivo `index.html` y ábr
 
 ## 🖼️Resultado final
 
-La calculadora simple se verá como se muestra a continuación:
-![calculadora](Imagenes/FinalResultCalculadoraPNG.PNG)
+La calculadora simple se verá como se muestra a continuación:<br>
+
+![calculadora](Imagenes/fondoImagen.JPG)
 
 ## 🤝Contribución
 
