@@ -1,7 +1,6 @@
-![Header](Imagenes/github-header-image.png)
-
 
 # 📟 Calculadora Simple
+![Header](Imagenes/banner.JPG)
 
 Este proyecto es una 🧮 calculadora simple desarrollada en **HTML**, **CSS** y **JavaScript**. Permite realizar operaciones aritméticas básicas (➕ suma, ➖ resta, ✖️ multiplicación y ➗ división) de manera sencilla.
 
